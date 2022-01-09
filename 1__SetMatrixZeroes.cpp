@@ -100,8 +100,6 @@ public:
                     if(col == 0) {
                         // Make first col flag = 0
                         colFlag = 0;
-                        // Make first element in row = 0
-                        // matrix[row][0] = 0;
                     }
                     else {
                         // Make first element in col = 0
