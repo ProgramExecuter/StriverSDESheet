@@ -3,7 +3,7 @@
 /////////////////
 
 // Time Complexity - O(n^2)
-// Space Complexity - O(n^2)
+// Space Complexity - O(n)
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -48,7 +48,7 @@ public:
 /////////////////
 
 // Time Complexity - O(n)
-// Space Complexity - O(n^2)
+// Space Complexity - O(n)
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
