@@ -2,7 +2,7 @@
 //  Solution 1  //
 /////////////////
 
-// Time Complexity - O(n^2)
+// Time Complexity - O(n*logn + n^2)
 // Space Complexity - O(n)
 class Solution {
 public:
@@ -47,7 +47,7 @@ public:
 //  Solution 2  //
 /////////////////
 
-// Time Complexity - O(n)
+// Time Complexity - O(n*logn + n)
 // Space Complexity - O(n)
 class Solution {
 public:
