@@ -46,8 +46,8 @@ class Solution{
 
 class Solution{
     public:
-    //Function to find the minimum number of platforms required at the
-    //railway station such that no train waits.
+    // Function to find the minimum number of platforms required at the
+    // railway station such that no train waits.
     int findPlatform(int arr[], int dep[], int n)
     {
     	// Sort the arrival and departure times
@@ -58,7 +58,7 @@ class Solution{
         int ptrArr = 1, ptrDep = 0, ans = 0;
         
         while(ptrArr < n  &&  ptrDep < n) {
-            // If arrival-time o next train <= departure-time of this train
+            // If arrival-time of next train <= departure-time of this train
             // then move to next arrival train
             if(arr[ptrArr] <= dep[ptrDep])
                 ++ptrArr;
