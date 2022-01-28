@@ -1,8 +1,8 @@
 /////////////////////
-///  Solution 2  ///
+///  Solution 1  ///
 ///////////////////
 
-// Time Complexity - O(logn)
+// Time Complexity - O(n)
 // Space Complexity - O(1)
 
 class Solution {
